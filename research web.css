@@ -1,0 +1,80 @@
+*{
+margin:0px;
+padding:0px;
+
+}
+header, section, nav, footer, aside{
+	display:block;
+}  
+body{
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+}
+#big_wrapper{
+max-width:1300px;
+margin:0px 0px;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-box-flex:1;
+	
+}
+#SUST-logo{padding:0px;margin:20px;height:0px;}
+#SUST-logo a{_margin-bottom:10px;position:relative;top:0px;left:0px;display:block;
+-moz-box-shadow:0 1px 3px rgba(6,5,5,0.5);-webkit-box-shadow:0 1px 3px rgba(6,5,5,0.5);
+text-decoration:none;border-bottom:none;width:200px;height:150px;
+background:white url(./s.png) no-repeat;z-index:0;transition:0;
+-moz-transition:0;-webkit-transition:0;}
+#SUST-logo a:hover{url(./s.png) no-repeat;}
+
+
+
+#block-menu-menu-audience{margin:50px 10px 50px 260px;padding:0;float:left;font-size:1.125em;}
+#block-menu-menu-audience ul{margin:0;}
+#block-menu-menu-audience li,
+#block-menu-menu-audience li.leaf{display:inline;margin:0;padding:0;}
+#block-menu-menu-audience li a{display:inline-block;padding:8px 8px 4px 8px;text-decoration:none;text-transform:uppercase;text-shadow:2px 1px 1px rgba(255,255,255,1);color:#333;border:red solid 1px;border-width:0;position:relative;top:0px;}
+#block-menu-menu-audience li a:hover{color:#000;box-shadow:inset 0px 4px 0px blue;}
+#block-menu-menu-audience li a.drop{top:0;}
+
+#strap-search{
+padding:10px;
+
+}
+
+#new_div{
+display:-webkit-box;
+-webkit-box-orient:horizontal;
+border-bottom:10px solid black;
+}
+#main-section{
+border:10px solid black;
+-webkit-box-flex:1;
+margin:0px 10px;
+padding:10px;
+font-size:20px;
+height: 450px;            
+overflow: auto;
+
+}
+
+
+
+#nav{background:black;font-size:1.25em;text-align:center;padding:30px;width:150px;height: 437px;}
+#nav a{text-decoration:none;padding:6px 8px;color:#fff;}
+#nav a:hover{background:#DC241F; width:100%}
+#searchbutton{top:0;}h1,h3,h4,h5,span.date-display-single,caption,th,#navigation,#site-name,#nav-column,#site-name,#strap,.breadcrumb,
+#nav{background:blaack;}
+#strap{height:160px;}
+
+
+
+
+
+#the_footer li{
+border:10px;
+display:inline-block;
+clear:both;
+text-align:center;
+padding:20px;
+}
